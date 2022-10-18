@@ -19,9 +19,9 @@
     <script defer>
         (async () => {
             const res = await fetch('keys-to-log-path.json');
-            const json = await res.json(); 
-            showDownloadLinks(json); 
-        })(); 
+            const json = await res.json();
+            showDownloadLinks(json);
+        })();
 
         const showDownloadLinks = (keyToLink) => {
             const container = document.querySelector('#download-links');
@@ -39,5 +39,7 @@
     <h2>Download the log that matches the first letter of your email!</h2>
     <div id="download-links">
     </div>
+<!--    <h3>Do not download - only for fun :)</h3>-->
+<!--    <a download href="">uncleaned, full log :)</a>-->
 </body>
 </html>
