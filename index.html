@@ -4,8 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <title>[cs1300] ab-testing log downloads</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+            line-height: 1.5;
+            color: #303030;
+            font-weight: 300;
+        }
+
+        h2 {
+            margin-bottom: 5px;
+        }
+    </style>
+    <script defer>
+        (async () => {
+            const res = await fetch('keys-to-log-path.json');
+            const json = await res.json(); 
+            showDownloadLinks(json); 
+        })(); 
+
+        const showDownloadLinks = (keyToLink) => {
+            const container = document.querySelector('#download-links');
+            for (const k in keyToLink) {
+                const toAppend = document.createElement('a');
+                toAppend.innerText = k;
+                toAppend.href = keyToLink[k].substring(keyToLink[k].indexOf('/') + 1);
+                toAppend.download = `ab-testing-log-${k}`;
+                container.append(toAppend, document.createElement('br'));
+            }
+        }
+    </script>
 </head>
 <body>
-    <h2>Logs will be uploaded soon :)</h2>
+    <h2>Download the log that matches the first letter of your email!</h2>
+    <div id="download-links">
+    </div>
 </body>
 </html>
