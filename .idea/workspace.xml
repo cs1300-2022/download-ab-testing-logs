@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="81b0bfe2-3549-4c50-ab18-f45bdfb7e13b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/logs/log-late.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-g.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-h.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-i.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-j.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-k.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-l.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-m.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-n.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-o.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-p.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-q.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-r.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-s.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-t.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-u.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-v.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-w.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-x.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-y.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/ab-testing-solutions-z.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GHwlU7Kgo2ZHcR8Ayikk1Y5OuD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/solutions" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/solutions" />
+      <recent name="$PROJECT_DIR$/logs" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81b0bfe2-3549-4c50-ab18-f45bdfb7e13b" name="Changes" comment="" />
+      <created>1666058967474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666058967474</updated>
+      <workItem from="1666058968594" duration="2963000" />
+      <workItem from="1666333584137" duration="48000" />
+      <workItem from="1667340647822" duration="3709000" />
+      <workItem from="1667432307415" duration="1801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -12,7 +12,7 @@
             font-weight: 300;
         }
 
-        h2, h3 {
+        h2, h3, h4 {
             margin-bottom: 5px;
         }
     </style>
@@ -27,19 +27,28 @@
             const container = document.querySelector('#download-links');
             for (const k in keyToLink) {
                 const toAppend = document.createElement('a');
-                toAppend.innerText = k;
+                toAppend.innerText = `download log ${k}`;
                 toAppend.href = keyToLink[k].substring(keyToLink[k].indexOf('/') + 1);
                 toAppend.download = `ab-testing-log-${k}`;
-                container.append(toAppend, document.createElement('br'));
+
+                const toAppendSolution = document.createElement('a');
+                toAppendSolution.innerText = `solution ${k}`;
+                toAppendSolution.href = `solutions/ab-testing-solutions-${k}.html`;
+                toAppendSolution.target = '_blank';
+                toAppendSolution.style.marginLeft = '10px';
+
+                container.append(toAppend, toAppendSolution, document.createElement('br'));
             }
         }
     </script>
 </head>
 <body>
-    <h2>Download the clean log that matches the first letter of your email!</h2>
+    <h2>If you are doing the assigment late, you must provide answers based on this new cleaned log (below).</h2>
+    <a href="logs/log-late.csv" download="ab-testing-log-late">late log download</a>
+    <h4>Old logs - note: solutions are now posted for these.</h4>
     <div id="download-links">
     </div>
-    <h3>Do not use for assignment (!!) - only for fun :)</h3>
+    <h4>Do not use for assignment (!!) - only for fun :)</h4>
     <a download href="uncleaned-logs-NOT-FOR-ASSIGNMENT.csv">uncleaned full web log</a>
 </body>
 </html>

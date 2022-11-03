@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ab-testing solutions for log m</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+            line-height: 1.5;
+            color: #303030;
+            font-weight: 300;
+        }
+
+        h2 {
+            margin-bottom: 5px;
+        }
+    </style>
+<body>
+    <h2>ab testing solutions for log m</h2>
+    <h3>Important Notes</h3>
+    <p>Depending on your alternative hypothesis, the t-scores may be in the opposite direction value. 
+    This may give you a p-value close to 1, and, in that case, you would fail to reject the null (as these are one-tailed tests).
+    </p>
+    
+    <p> 
+    The grade report contains the fraction of the two points you receive for each question. To interpret your score report, multiply each fraction by 2 and take the sum.
+    To determine these fractions, it uses the maxwell distribution and the complex error function, which exponentially tapers off the further you are from the correct answer. 
+    This allows leniency for those close to the answer (i.e. missing a couple logs) but penalizes those who were significantly far from the correct answer (i.e. a major math miscalculation).
+    </p>
+    
+    <h3>Task Success</h3>
+    <p> For this, you are supposed to use the <b>chi^2 test</b> since the data is naturally categorical. </p>
+    
+    <p>The task success rates were <b>(0.8106508875739645, 0.8518518518518519)</b> (for a, b)
+    
+    <p>Then, the chi^2 metric was <b>0.9989040019809267</b>
+    
+    <p>From this, the p-value (using df =1) metric was <b>0.31757585270637945</b>
+    
+    <p>Therefore, you should <b>fail to reject the null</b> as the p-value is greater than our alpha of (.05). This means your <b>results were not significant</b>.</p>
+    
+    <h3>Time to Checkout</h3>
+    
+    <p>For this, you are supposed to use the <b>t-test</b> since the data is naturally numerical. </p>
+    
+    <p>From this, the averages are <b>(75505.07299270073, 87189.23188405797)</b> (a, b)
+    
+    <p>Then, the t-score was <b>-2.8810256874818956</b> (for a - b in numerator)
+    
+    <p>From this, the p-value (using df =272) metric was <b>0.0021392080352187585</b>
+    
+    <p>Therefore, you should <b>reject the null</b> as the p-value is less than our alpha of (.05). This means your <b>results were significant</b>.</p>
+    
+    <h3>Time to First Cart</h3>
+    
+    <p>For this, you are supposed to use the <b>t-test</b> since the data is naturally numerical.</p>
+    
+    <p>The averages are <b>(22322.53947368421, 32157.0)</b> (a, b)
+    
+    <p>Then, the t-score was <b>-4.474891008068451</b> (for a - b  in numerator)
+    
+    <p>From this, the p-value (using df =253) metric was <b>5.445987121463251e-06</b> 
+    
+    <p>Therefore, you should <b>reject the null</b> as the p-value is less than our alpha of (.05). This means your <b>results were significant</b>.</p>
+</body>
+</html>
