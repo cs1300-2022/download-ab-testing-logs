@@ -30,14 +30,14 @@
                 toAppend.innerText = `download log ${k}`;
                 toAppend.href = keyToLink[k].substring(keyToLink[k].indexOf('/') + 1);
                 toAppend.download = `ab-testing-log-${k}`;
+                container.append(toAppend, document.createElement('br'));
 
-                const toAppendSolution = document.createElement('a');
-                toAppendSolution.innerText = `solution ${k}`;
-                toAppendSolution.href = `solutions/ab-testing-solutions-${k}.html`;
-                toAppendSolution.target = '_blank';
-                toAppendSolution.style.marginLeft = '10px';
-
-                container.append(toAppend, toAppendSolution, document.createElement('br'));
+                // const toAppendSolution = document.createElement('a');
+                // toAppendSolution.innerText = `solution ${k}`;
+                // toAppendSolution.href = `solutions/ab-testing-solutions-${k}.html`;
+                // toAppendSolution.target = '_blank';
+                // toAppendSolution.style.marginLeft = '10px';
+                // container.append(toAppend, toAppendSolution, document.createElement('br'));
             }
         }
     </script>
